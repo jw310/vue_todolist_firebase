@@ -138,10 +138,10 @@ export default {
     // loading 效果
     isLoading: false
   }),
-  // 資料連結
-  firestore: {
-    todos: db.collection('todos')
-  },
+  // // 資料連結
+  // firestore: {
+  //   todos: db.collection('todos')
+  // },
   methods: {
     async addTodo() {
       this.isLoading = true
