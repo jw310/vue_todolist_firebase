@@ -17,7 +17,7 @@
         <input
           type="text"
           class="form-control"
-          placeholder="請輸入"
+          placeholder="輸入後，enter 即可新增"
           v-model="newtodo"
           @keyup.enter="addTodo"
         />
